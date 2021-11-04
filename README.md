@@ -1,2 +1,2 @@
 # Ultra-fast-degradation-diagnosis
-Please run "model_training_validation_n_visualization.m" 
+Please run the file "model_training_validation_n_visualization.m" in MATLAB
