@@ -184,9 +184,9 @@ leg1.ItemTokenSize = [10,10];
 nexttile(19,[2 2])
 TE = TrainError./squeeze(Y_train_Ah)*100;
 PE = predictionError./squeeze(Y_val_Ah)*100;
-histogram(TE)
+histogram(TE,'BinWidth',1)
 hold on
-histogram(PE)
+histogram(PE,'BinWidth',1)
 xlim([-10 10])
 Y_lim = get(gca,'ylim');
 plot([-err_bnd_perc -err_bnd_perc],[Y_lim(1), Y_lim(2)],'k--')
